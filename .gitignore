@@ -1,0 +1,23 @@
+# --- Python Cache ---
+__pycache__/
+*.pyc
+
+# --- Virtual environments ---
+venv/
+.env
+
+# --- Editor/IDE files ---
+.vscode/
+.idea/
+
+# --- Sensitive / unnecessary files ---
+encrypted_seed.txt   # NOT committed (only instructor should test it inside container)
+
+# --- Docker volumes output ---
+/data/
+/cron/
+
+# --- OS garbage ---
+.DS_Store
+Thumbs.db
+
