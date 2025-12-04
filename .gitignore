@@ -21,3 +21,4 @@ encrypted_seed.txt   # NOT committed (only instructor should test it inside cont
 .DS_Store
 Thumbs.db
 
+encrypted_seed.txt
